@@ -1,0 +1,26 @@
+{
+  "name": "@sensoro/umi-plugin-qiankun-development",
+  "version": "1.2.0",
+  "description": "qiankun development",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "redbud build"
+  },
+  "dependencies": {
+    "@umijs/types": "^3.5.32",
+    "@umijs/utils": "^3.5.32",
+    "fs-extra": "^11.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.14.3",
+    "@types/fs-extra": "^11.0.1"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org",
+    "access": "public"
+  }
+}
