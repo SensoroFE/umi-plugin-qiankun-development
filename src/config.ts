@@ -31,9 +31,4 @@ export const defaultPackageExternalMap: Record<string, PackageExternalInfo> = {
     commonjs: 'antd',
     script: 'https://lins-cdn.sensoro.com/lins-cdn/antd@4.23.2/dist/antd.min.js',
   },
-  '@lins-material/iconfont': {
-    root: "MaterialIconfont",
-    commonjs: "@lins-material/iconfont",
-    script: "https://lins-cdn.sensoro.com/lins-cdn/@lins-material/iconfont/1.2.3/dist/iconfont.min.js"
-  },
 };
